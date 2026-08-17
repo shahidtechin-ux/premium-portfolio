@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #050505;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Premium Glassmorphism Class */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505; 
+}
+::-webkit-scrollbar-thumb {
+  background: #222; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444; 
+}
