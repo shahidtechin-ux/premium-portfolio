@@ -17,6 +17,10 @@ export async function generateMetadata() {
         verification: {
           google: 'ZyMUuNP_dZH07cyC5nEpQ0WZKw5L8lF_Fz5_y5mzUP0',
         },
+        applicationName: 'Shahid Web Studio',
+        OpenGraph: {
+          siteName: 'Shahid Web Studio',
+        },
       };
     }
   } catch (error) {
@@ -30,6 +34,10 @@ export async function generateMetadata() {
     keywords: 'web developer, website development, web development services, website designer, professional website development, business website, responsive website, custom website development, portfolio website, ecommerce website, website design, Shahid Web Studio',
     verification: {
       google: 'ZyMUuNP_dZH07cyC5nEpQ0WZKw5L8lF_Fz5_y5mzUP0',
+    },
+    applicationName: 'Shahid Web Studio',
+    OpenGraph: {
+      siteName: 'Shahid Web Studio',
     },
   };
 }
